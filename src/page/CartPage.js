@@ -45,7 +45,7 @@ const CartPage = () => {
       (
         <div className='h-[1000px] w-full flex flex-col justify-center items-center'>
           <h2 className='text-3xl font-medium py-5'>Cart Empty</h2>
-          <NavLink to={"/"}>
+          <NavLink to={"/Shopping-App/"}>
             <button className='text-center text-xl bg-sky-900 text-slate-50 border-solid border-2 border-black rounded-full px-5 py-2 hover:bg-sky-700 hover:scale-110 transition duration-300'>Shop Now</button>
           </NavLink>
         </div>
