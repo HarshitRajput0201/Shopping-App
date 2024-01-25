@@ -12,12 +12,12 @@ const NavBar = () => {
         </div>
         <div className='flex flex-row items-center justify-center'>
             <div className='p-3'>
-                <NavLink to="/">
+                <NavLink to="/Shopping-App/">
                     <p className='text-xl text-slate-50'>Home</p>
                 </NavLink>
             </div>
             <div>
-                <NavLink to="/cart">
+                <NavLink to="/Shopping-App/cart">
                     <p className='text-3xl text-slate-50 p-3'><HiShoppingCart /></p>                </NavLink>
             </div>
         </div>
